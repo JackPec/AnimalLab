@@ -1,0 +1,54 @@
+1. How many hierarchies do you have? Why?
+Just one, the base animal is the parent, and the predator
+and prey classes are the children. I did this since it made
+logical sense to me, predators and prey are both animals,
+("is a" relationship) but not all animalsa are predators,
+and vice versa.
+
+
+2. How many classes are in the hierarchy(ies)? 
+How many levels does this hierarchy(ies) have?
+
+3 classes, the baseAnimal class, the prey class
+and the predator class. 
+
+the hiearchy has 2 levels I think.
+
+3. What members did you make protected? Private?
+
+I made everything private except getters and setters
+and special functions as needed, since I think its good
+practice to have the default be private for member vars. 
+
+
+4. What kind of inheritance mode(s) did you use for your inheritance?
+
+class Child : public Parent
+
+I did it this way since the children uses alot of data from the
+parent's member vars (like speed). 
+
+
+5. Have you used any composition? 
+ Or is your entire program dependant on inheritance?
+
+My entire program is dependant on inheritance
+
+
+6. How many arrays do you have to
+ hold your simulation's population? How 'weildy' is this?
+
+I have two arrays, one for predators and one for prey. 
+I think its pretty weildy for this application.
+
+
+7. What sort of initial counts cause predators to reign? Prey? 
+ A stable population (not by code -- by inspection)?
+
+If there's prey>>predators, then predators reign, and vice versa.
+
+a Stable population would most likely have slighly more prey 
+then predators but not so much that the predators pop balloons.
+
+
+
